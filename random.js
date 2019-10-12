@@ -3,7 +3,7 @@ function randomFn(){
 }
 console.log(randomFn());
 
-function randomWholeNumber() {
+function  randomWholeNumber() {
     return Math.floor(Math.random() * 69);
 }
 
