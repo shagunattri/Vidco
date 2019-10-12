@@ -17,3 +17,6 @@ function switchCase(num){
 }
 
 console.log(switchCase(2));
+
+
+f

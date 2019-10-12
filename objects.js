@@ -17,3 +17,4 @@ obj.city = ["Chandigarh","Chennai"];
 obj['alias'] = "id10t";
 
 delete obj.alias;
+
