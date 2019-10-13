@@ -49,3 +49,17 @@ console.log(maxTom(forecast));
  }) ();
  console.log(an);
  console.log(bm);
+
+ //using destruction assignmet with the rest operator
+  
+ const source = [1,2,3,4,5,6,7,8,9];
+ function removeTwo(list) {
+
+    const [ , , ...arr] = list;
+
+    return arr;
+ }
+
+ const arr = removeTwo(source);
+ console.log(source);
+ console.log(arr);
