@@ -63,3 +63,25 @@ console.log(maxTom(forecast));
  const arr = removeTwo(source);
  console.log(source);
  console.log(arr);
+
+
+ //using destruction assignment to pass an object as a functions parameter
+const stats = {
+    max: 12.99,
+    standardDeviation: 4.35,
+    median: 34.54,
+    mode: 23.48,
+    min: -37.21,
+    average: 35.84,
+};
+
+const half = (function () {
+    return function half({ //destruction  by using only specific elements of obj instead of the whole object  as done in API requests
+        max,min 
+    }) {
+        return (max + min) / 2.0;
+    };
+}) ();
+
+console.log(stats);
+console.log(half(stats));

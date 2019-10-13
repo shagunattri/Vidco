@@ -2,7 +2,7 @@
 
 const anonfn = () => new Date();
 
-console.log("\n")
+ console.log("\n")
 
 //arrown fns with parameters
  
