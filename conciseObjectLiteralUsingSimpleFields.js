@@ -11,6 +11,8 @@
 // console.log(createPerson("Shagun",56,"male"));
 
 
+
+
 //using simple fields 
 
 const createPerson1 = (name,age,gender) => ({name,age,gender});
