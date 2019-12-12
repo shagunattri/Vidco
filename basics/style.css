@@ -1,0 +1,52 @@
+
+* {
+    text-align: right;
+}
+
+
+body {
+    background-image: url(windows.jpg);
+    background-size: cover;
+}
+
+sp {
+    color:#AA4139;
+    text-align: center;
+    border: 5px dashed rgba(255,176,170,0.7);
+    cursor: pointer;
+}
+p {
+    color:white;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-style: italic;
+    font-size: 150%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+img {
+    float: right;
+}
+footer {
+    clear: both;
+    text-align: center;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext:first-child {
+    border: 5px dashed whitesmoke;
+}
+.active {
+    color: red;
+}
+
+#id1 {
+    background: rgba(221, 143, 137, 1);
+}
+#id2 {
+    background: rgba(194, 49, 38, 0.7);
+}
