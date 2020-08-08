@@ -1,4 +1,4 @@
 ### Vidco
 
 
-Landing page of Vidco Chat Application.
+Landing page of Vidco Chat Application. 
