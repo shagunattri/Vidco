@@ -1,5 +1,6 @@
 ### Vidco
 
+![Vidco logo](images/logo.png)
 
 Landing page of Vidco Chat Application. 
 

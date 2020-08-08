@@ -263,7 +263,7 @@ footer {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start; }
   .footer__base > :not(:last-child) {
     margin-bottom: 4rem; }
@@ -271,8 +271,8 @@ footer {
     width: 35rem;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
     margin-right: 2rem; }
     .footer__base--location-icon {
       margin-right: 2rem; }
